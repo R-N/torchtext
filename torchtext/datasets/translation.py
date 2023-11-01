@@ -83,7 +83,7 @@ class Multi30k(TranslationDataset):
 
     @classmethod
     def splits(cls, exts, fields, root='.data',
-               train='train', validation='val', test='test2016', **kwargs):
+               train='train', validation='val', test='test', **kwargs):
         """Create dataset objects for splits of the Multi30k dataset.
 
         Arguments:
